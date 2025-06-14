@@ -1,4 +1,4 @@
-## Módulo 1: Lista de Exercícios 1
+## Módulo 1: Lista de Exercícios 2
 
 Lista de exercícios do módulo 1 do curso Dev Full Stack Jr. da MaisPraTI e Codifica.
 
@@ -12,6 +12,7 @@ Lista de exercícios do módulo 1 do curso Dev Full Stack Jr. da MaisPraTI e Cod
 ### Execução
  
 Execute cada exercício com `node` e o nome do exercício, seguindo o padrão `ex01.js` ... `ex09.js`
+
 Exemplo: `node ex01.js`
 
 ### Lista de Exercícios
