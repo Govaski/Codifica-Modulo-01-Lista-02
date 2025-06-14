@@ -31,11 +31,22 @@ function memoize(fn) {
     }
 }
 
-const fastFact = memoize(function factorial(n) {
+/*const fastFact = memoize(function factorial(n) {
     if (n < 0) return console.error(Error("Numero menor que 0"))
     if(n === 0) return 1
     return n * fastFact(n-1)
+})*/
+
+const fastFib = memoize(function fibonacci(n) {
+    if (n < 2){
+        return 1;
+    } else {
+        return fibonacci(n-2) + fibonacci(n-1);
+    }
 })
 
-console.log(fastFact(170))
-console.log(fastFact(170))
+console.log('6. Memoization: Implemente function memoize(fn) que armazene em cache chamadas anteriores de fn (por argumentos), retornando resultados instantâneos em repetidas invocações.')
+console.log("Fazendo um fibonnaci de n = 45. Pode demorar um pouco para terminar o primeiro cálculo...")
+
+console.log(fastFib(45))
+console.log(fastFib(45))

@@ -23,4 +23,5 @@ function uniqueWords (string) {
     return words
 }
 
+console.log('Dada uma string (ex.: "olá olá mundo mundo"), use if/else e for para extrair todas as palavras únicas e exibi-las em um array.')
 console.log(uniqueWords("olá olá mundo mundo"))

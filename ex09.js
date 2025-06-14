@@ -23,6 +23,8 @@ function objetoParaPares(obj) {
     return arr                     //retorne o array
 }
 
+console.log('9. Conversão Entre Formatos: Escreva duas funções: ○  paresParaObjeto(pares) recebe um array de pares [ [chave, valor], ... ] e retorna o objeto equivalente. ○  objetoParaPares(obj)  faz  o  inverso,  retornando  um  array  de pares.')
+
 console.log("Original: ", array)
 let arrParaObj = paresParaObjeto(array)
 console.log("Conversão para objeto: ", arrParaObj)
